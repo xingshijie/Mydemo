@@ -1,0 +1,4 @@
+E:\Android\sdk\samples\android-21\ui\SlidingTabsBasic\Application\build\intermediates\classes\debug
+E:\Android\sdk\samples\android-21\ui\SlidingTabsBasic\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-704a340b9af7bcb3c02ad95d5aa67056e7d6206d.jar
+E:\Android\sdk\samples\android-21\ui\SlidingTabsBasic\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-bcc0463317ba26b7771146283763570811d1e02f.jar
+E:\Android\sdk\samples\android-21\ui\SlidingTabsBasic\Application\build\intermediates\pre-dexed\debug\classes-d010e74f52f10ae2d0af006679d26122075f29ce.jar

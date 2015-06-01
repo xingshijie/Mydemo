@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mydemo.iml" filepath="$PROJECT_DIR$/Mydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingTabsBasic/SlidingTabsBasic.iml" filepath="$PROJECT_DIR$/SlidingTabsBasic/SlidingTabsBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperRecyclerView/SuperRecyclerView.iml" filepath="$PROJECT_DIR$/SuperRecyclerView/SuperRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperRecyclerView-sample/SuperRecyclerView-sample.iml" filepath="$PROJECT_DIR$/SuperRecyclerView-sample/SuperRecyclerView-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+
