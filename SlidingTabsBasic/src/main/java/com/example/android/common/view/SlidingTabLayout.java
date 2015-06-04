@@ -22,6 +22,7 @@ import android.os.Build;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -30,6 +31,9 @@ import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.android.slidingtabsbasic.R;
+
 
 /**
  * To be used with ViewPager to provide a tab indicator component which give constant feedback as to
@@ -70,6 +74,8 @@ public class SlidingTabLayout extends HorizontalScrollView {
     private static final int TITLE_OFFSET_DIPS = 24;
     private static final int TAB_VIEW_PADDING_DIPS = 16;
     private static final int TAB_VIEW_TEXT_SIZE_SP = 12;
+    //TODO 指示器字体颜色
+    private static final int TAB_VIEW_TEXT_COLOR = 0x3a3738;
 
     private int mTitleOffset;
 
@@ -175,6 +181,8 @@ public class SlidingTabLayout extends HorizontalScrollView {
         textView.setGravity(Gravity.CENTER);
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, TAB_VIEW_TEXT_SIZE_SP);
         textView.setTypeface(Typeface.DEFAULT_BOLD);
+        // TODO 设置字体颜色不能用24位颜色直接设置，必须32位颜色，为什么
+//        textView.setTextColor(getResources().getColor(R.color.black));
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             // If we're running on Honeycomb or newer, then we can use the Theme's
@@ -226,6 +234,9 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
             mTabStrip.addView(tabView,layoutParams1);
         }
+        //TODO 设置第一个字体颜色
+//        ((TextView)mTabStrip.getChildAt(0)).setTextColor(getResources().getColor(R.color.green));
+//        currentSelectedTitle=(TextView)mTabStrip.getChildAt(0);
     }
 
     @Override
@@ -299,10 +310,20 @@ public class SlidingTabLayout extends HorizontalScrollView {
             if (mViewPagerPageChangeListener != null) {
                 mViewPagerPageChangeListener.onPageSelected(position);
             }
+
+            //TODO 当前选择的TextView
+//            if(currentSelectedTitle!=null){
+//                currentSelectedTitle.setTextColor(getResources().getColor(R.color.gray));
+//            }
+//            TextView textView= (TextView)mTabStrip.getChildAt(position);
+//            textView.setTextColor(getResources().getColor(R.color.green));
+//            currentSelectedTitle=textView;
+//            Log.e("", "adfafdadsfadsf");
         }
 
     }
-
+    //TODO 当前选择的TextView
+    TextView currentSelectedTitle=null;
     private class TabClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {

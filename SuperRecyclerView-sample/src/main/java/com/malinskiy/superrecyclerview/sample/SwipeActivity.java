@@ -30,7 +30,8 @@ public class SwipeActivity extends Activity implements SwipeRefreshLayout.OnRefr
         mAdapter = new SwipeAdapter(list);
         mRecycler.setAdapter(mAdapter);
         mAdapter.setMode(SwipeItemManagerInterface.Mode.Single);
-        mRecycler.addOnItemTouchListener(new RecyclerUtils.RecyclerItemClickListener(this, new RecyclerUtils.RecyclerItemClickListener.OnItemClickListener() {
+        mRecycler.addOnItemTouchListener(new RecyclerUtils.RecyclerItemClickListener(this,
+                new RecyclerUtils.RecyclerItemClickListener.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
                 Toast.makeText(SwipeActivity.this, "Clicked " + position, Toast.LENGTH_SHORT).show();

@@ -39,9 +39,9 @@ public class Demo extends Fragment {
 
     static final String LOG_TAG = "SlidingTabsBasicFragment";
 
-    private SlidingTabLayout mSlidingTabLayout;
+    public SlidingTabLayout mSlidingTabLayout;
 
-    private ViewPager mViewPager;
+    public ViewPager mViewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,6 +55,10 @@ public class Demo extends Fragment {
         mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
         mSlidingTabLayout = (SlidingTabLayout) view.findViewById(R.id.sliding_tabs);
 
+
+    }
+
+    public void initView(){
         //TODO 设置适配器，设置Viewpager保存的页面，为mSlidingTabLayout设置viewpager
         mViewPager.setAdapter(new SamplePagerAdapter());
         mViewPager.setOffscreenPageLimit(4);
@@ -111,7 +115,7 @@ public class Demo extends Fragment {
             TextView title = (TextView) view.findViewById(R.id.item_title);
             title.setText(String.valueOf(position + 1));
 
-            Log.i(LOG_TAG, "instantiateItem() [position: " + position + "]");
+            Log.e(LOG_TAG, "instantiateItem() [position: " + position + "]");
             // Return the View
             return view;
         }
@@ -123,7 +127,7 @@ public class Demo extends Fragment {
         public void destroyItem(ViewGroup container, int position, Object object) {
             //TODO 需要移除view。。可能会增加性能，具体不清楚
             container.removeView((View) object);
-            Log.i(LOG_TAG, "destroyItem() [position: " + position + "]");
+            Log.e(LOG_TAG, "destroyItem() [position: " + position + "]");
         }
 
     }
