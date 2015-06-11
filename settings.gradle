@@ -1,1 +1,1 @@
-include ':app', ':SlidingTabsBasic', ':SuperRecyclerView', ':SuperRecyclerView-sample'
+include ':app', ':SlidingTabsBasic', ':SuperRecyclerView', ':SuperRecyclerView-sample', ':wheel'
