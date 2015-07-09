@@ -148,7 +148,9 @@ class SlidingTabStrip extends LinearLayout {
             }
 
             mSelectedIndicatorPaint.setColor(color);
-
+            //TODO canvas.drawRect(0, height - mBottomBorderThickness, getWidth(), height, mBottomBorderPaint);
+            //TODO 将上面那行代码从下面移到上面那么指示器就会覆盖下面的边界线
+            //TODO 最后绘制的在最上面
             canvas.drawRect(left, height - mSelectedIndicatorThickness, right,
                     height, mSelectedIndicatorPaint);
         }
