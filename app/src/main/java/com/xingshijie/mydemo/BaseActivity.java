@@ -17,7 +17,7 @@ public class BaseActivity extends Activity implements View.OnClickListener{
 
     private Adapter adapter;
 
-
+    //TODO　把下面这个类改成ｇｅｔｉｎｔｅｎｔ效果比较好
     //TODO 所有打开Activity的方式都应该使用此种，而不应该在其他类中直接使用startActivity
     //使用此种方式可以很好的控制Acitivity的启动，此方法与此类紧耦合
     /**
@@ -75,6 +75,17 @@ public class BaseActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
+        //TODO 网络加载异常如果还可以点击可能会造成空指针，所有点击要保证获得的数据不为空，或者数据没加载好就隐藏所有的按钮
+        //TODO 在这个地方加入同一的组织点击的的时间
+        //TODO 可以在上个界面加载好数据在进入下一个界面，这样可以避免这些问题
+        if(dataSource==null){
+            return;
+        }
+        switch (v.getId()){
+            case 1:
+                break;
+            default:
 
+        }
     }
 }

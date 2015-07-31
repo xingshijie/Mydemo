@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.yami.app.R;
+import com.xingshijie.mydemo.R;
+
 
 public class GenericProgressDialog extends AlertDialog {
     private ProgressBar  mProgress;

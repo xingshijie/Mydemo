@@ -9,51 +9,1274 @@ package com.example.android.slidingtabsbasic;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int animationVelocity=0x7f010020;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int aspectRatio=0x7f01000c;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>white</code></td><td>1</td><td></td></tr>
+<tr><td><code>wave</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int baseStyle=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int border_color2=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int border_width2=0x7f01000e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int corner_radius=0x7f01000d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int insetBottom=0x7f010026;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int insetLeft=0x7f010023;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int insetRight=0x7f010024;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int insetTop=0x7f010025;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int layout_empty=0x7f010027;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int layout_moreProgress=0x7f010028;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int layout_progress=0x7f010029;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int leftBtnIcon=0x7f010006;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int leftBtnTxt=0x7f010007;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int leftContent=0x7f010001;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int lineTitle=0x7f010000;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int mainLayoutId=0x7f010031;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int measureFactor=0x7f010022;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int mutate_background=0x7f010010;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int offColor=0x7f01001d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int offDrawable=0x7f010013;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int onColor=0x7f01001c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int onDrawable=0x7f010012;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int oval=0x7f010011;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int radius_swtichbutton=0x7f010021;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerClipToPadding=0x7f01002a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerPadding=0x7f01002b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerPaddingBottom=0x7f01002d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerPaddingLeft=0x7f01002e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerPaddingRight=0x7f01002f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int recyclerPaddingTop=0x7f01002c;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int redPoint=0x7f010003;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int rightBtnIcon=0x7f01000b;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int rightBtnTxt=0x7f01000a;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int rightContent=0x7f010002;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>insideOverlay</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>insideInset</code></td><td>0x01000000</td><td></td></tr>
+<tr><td><code>outsideOverlay</code></td><td>0x02000000</td><td></td></tr>
+<tr><td><code>outsideInset</code></td><td>0x03000000</td><td></td></tr>
+</table>
+         */
+        public static final int scrollbarStyle=0x7f010030;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int thumbColor=0x7f01001e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int thumbDrawable=0x7f010014;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int thumbPressedColor=0x7f01001f;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_height=0x7f01001b;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_margin=0x7f010015;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_marginBottom=0x7f010017;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_marginLeft=0x7f010018;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_marginRight=0x7f010019;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_marginTop=0x7f010016;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+         */
+        public static final int thumb_width=0x7f01001a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int titleBtnIcon=0x7f010009;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int titleTxt=0x7f010008;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int yami_background=0x7f010005;
+    }
+    public static final class color {
+        public static final int background=0x7f040000;
+        public static final int background_dialog=0x7f040001;
+        public static final int black=0x7f040002;
+        public static final int border_line=0x7f040003;
+        public static final int brown=0x7f040004;
+        public static final int button_red=0x7f040005;
+        public static final int common_background=0x7f040006;
+        public static final int customer_tab_indicator_text=0x7f040007;
+        public static final int dark_grey=0x7f040008;
+        public static final int dialog_title=0x7f040009;
+        public static final int divider=0x7f04000a;
+        public static final int green=0x7f04000b;
+        public static final int grey=0x7f04000c;
+        public static final int holo_blue=0x7f04000d;
+        public static final int interval_line=0x7f04000e;
+        public static final int light_grey=0x7f04000f;
+        public static final int navigation_color=0x7f040010;
+        public static final int pure_black=0x7f040011;
+        public static final int pure_white=0x7f040012;
+        public static final int red=0x7f040013;
+        public static final int transparent=0x7f040014;
+        public static final int whitadfe=0x7f040015;
+        public static final int white=0x7f040016;
+        public static final int yami_blue=0x7f040017;
+        public static final int yami_gray=0x7f040018;
+        public static final int yami_green=0x7f040019;
+        public static final int yami_green_dark=0x7f04001a;
+        public static final int yami_text_color=0x7f04001b;
+        public static final int yami_text_color_hint=0x7f04001c;
+        public static final int yami_yellow=0x7f04001d;
     }
     public static final class dimen {
-        public static final int horizontal_page_margin=0x7f040000;
-        public static final int margin_huge=0x7f040001;
-        public static final int margin_large=0x7f040002;
-        public static final int margin_medium=0x7f040003;
-        public static final int margin_small=0x7f040004;
-        public static final int margin_tiny=0x7f040005;
-        public static final int vertical_page_margin=0x7f040006;
+        public static final int horizontal_page_margin=0x7f050000;
+        public static final int margin_huge=0x7f050001;
+        public static final int margin_large=0x7f050002;
+        public static final int margin_medium=0x7f050003;
+        public static final int margin_small=0x7f050004;
+        public static final int margin_tiny=0x7f050005;
+        public static final int vertical_page_margin=0x7f050006;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int tile=0x7f020001;
+        public static final int dot=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int tile=0x7f020002;
     }
     public static final class id {
-        public static final int item_subtitle=0x7f080006;
-        public static final int item_title=0x7f080007;
-        public static final int log_fragment=0x7f080002;
-        public static final int menu_toggle_log=0x7f080008;
-        public static final int sample_content_fragment=0x7f080003;
-        public static final int sample_main_layout=0x7f080000;
-        public static final int sample_output=0x7f080001;
-        public static final int sliding_tabs=0x7f080004;
-        public static final int viewpager=0x7f080005;
+        public static final int dot=0x7f09000c;
+        public static final int insideInset=0x7f090003;
+        public static final int insideOverlay=0x7f090004;
+        public static final int item_subtitle=0x7f09000f;
+        public static final int item_title=0x7f090010;
+        public static final int log_fragment=0x7f090009;
+        public static final int menu_toggle_log=0x7f090011;
+        public static final int normal=0x7f090000;
+        public static final int outsideInset=0x7f090005;
+        public static final int outsideOverlay=0x7f090006;
+        public static final int sample_content_fragment=0x7f09000a;
+        public static final int sample_main_layout=0x7f090007;
+        public static final int sample_output=0x7f090008;
+        public static final int sliding_tabs=0x7f09000d;
+        public static final int textView=0x7f09000b;
+        public static final int viewpager=0x7f09000e;
+        public static final int wave=0x7f090001;
+        public static final int white=0x7f090002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int fragment_sample=0x7f030001;
-        public static final int pager_item=0x7f030002;
+        public static final int dot_text_view=0x7f030001;
+        public static final int fragment_sample=0x7f030002;
+        public static final int pager_item=0x7f030003;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int intro_message=0x7f050001;
-        public static final int sample_hide_log=0x7f050002;
-        public static final int sample_show_log=0x7f050003;
+        public static final int app_name=0x7f060000;
+        public static final int intro_message=0x7f060001;
+        public static final int sample_hide_log=0x7f060002;
+        public static final int sample_show_log=0x7f060003;
     }
     public static final class style {
-        public static final int AppTheme=0x7f060000;
-        public static final int Theme_Base=0x7f060001;
-        public static final int Theme_Sample=0x7f060002;
-        public static final int Widget=0x7f060003;
-        public static final int Widget_SampleMessage=0x7f060004;
-        public static final int Widget_SampleMessageTile=0x7f060005;
+        public static final int AppTheme=0x7f070000;
+        public static final int Theme_Base=0x7f070001;
+        public static final int Theme_Sample=0x7f070002;
+        public static final int Widget=0x7f070003;
+        public static final int Widget_SampleMessage=0x7f070004;
+        public static final int Widget_SampleMessageTile=0x7f070005;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CommonLine.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CommonLine_leftContent com.example.android.slidingtabsbasic:leftContent}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonLine_lineTitle com.example.android.slidingtabsbasic:lineTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonLine_redPoint com.example.android.slidingtabsbasic:redPoint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonLine_rightContent com.example.android.slidingtabsbasic:rightContent}</code></td><td></td></tr>
+           </table>
+           @see #CommonLine_leftContent
+           @see #CommonLine_lineTitle
+           @see #CommonLine_redPoint
+           @see #CommonLine_rightContent
+         */
+        public static final int[] CommonLine = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#leftContent}
+          attribute's value can be found in the {@link #CommonLine} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:leftContent
+        */
+        public static final int CommonLine_leftContent = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#lineTitle}
+          attribute's value can be found in the {@link #CommonLine} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:lineTitle
+        */
+        public static final int CommonLine_lineTitle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#redPoint}
+          attribute's value can be found in the {@link #CommonLine} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:redPoint
+        */
+        public static final int CommonLine_redPoint = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#rightContent}
+          attribute's value can be found in the {@link #CommonLine} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:rightContent
+        */
+        public static final int CommonLine_rightContent = 2;
+        /** Attributes that can be used with a CommonTitleBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CommonTitleBar_baseStyle com.example.android.slidingtabsbasic:baseStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_leftBtnIcon com.example.android.slidingtabsbasic:leftBtnIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_leftBtnTxt com.example.android.slidingtabsbasic:leftBtnTxt}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_rightBtnIcon com.example.android.slidingtabsbasic:rightBtnIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_rightBtnTxt com.example.android.slidingtabsbasic:rightBtnTxt}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_titleBtnIcon com.example.android.slidingtabsbasic:titleBtnIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_titleTxt com.example.android.slidingtabsbasic:titleTxt}</code></td><td></td></tr>
+           <tr><td><code>{@link #CommonTitleBar_yami_background com.example.android.slidingtabsbasic:yami_background}</code></td><td></td></tr>
+           </table>
+           @see #CommonTitleBar_baseStyle
+           @see #CommonTitleBar_leftBtnIcon
+           @see #CommonTitleBar_leftBtnTxt
+           @see #CommonTitleBar_rightBtnIcon
+           @see #CommonTitleBar_rightBtnTxt
+           @see #CommonTitleBar_titleBtnIcon
+           @see #CommonTitleBar_titleTxt
+           @see #CommonTitleBar_yami_background
+         */
+        public static final int[] CommonTitleBar = {
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#baseStyle}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>white</code></td><td>1</td><td></td></tr>
+<tr><td><code>wave</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.android.slidingtabsbasic:baseStyle
+        */
+        public static final int CommonTitleBar_baseStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#leftBtnIcon}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:leftBtnIcon
+        */
+        public static final int CommonTitleBar_leftBtnIcon = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#leftBtnTxt}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:leftBtnTxt
+        */
+        public static final int CommonTitleBar_leftBtnTxt = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#rightBtnIcon}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:rightBtnIcon
+        */
+        public static final int CommonTitleBar_rightBtnIcon = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#rightBtnTxt}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:rightBtnTxt
+        */
+        public static final int CommonTitleBar_rightBtnTxt = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#titleBtnIcon}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:titleBtnIcon
+        */
+        public static final int CommonTitleBar_titleBtnIcon = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#titleTxt}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.android.slidingtabsbasic:titleTxt
+        */
+        public static final int CommonTitleBar_titleTxt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#yami_background}
+          attribute's value can be found in the {@link #CommonTitleBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:yami_background
+        */
+        public static final int CommonTitleBar_yami_background = 1;
+        /** Attributes that can be used with a FixedAspectRatioFrameLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FixedAspectRatioFrameLayout_aspectRatio com.example.android.slidingtabsbasic:aspectRatio}</code></td><td></td></tr>
+           </table>
+           @see #FixedAspectRatioFrameLayout_aspectRatio
+         */
+        public static final int[] FixedAspectRatioFrameLayout = {
+            0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#aspectRatio}
+          attribute's value can be found in the {@link #FixedAspectRatioFrameLayout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:aspectRatio
+        */
+        public static final int FixedAspectRatioFrameLayout_aspectRatio = 0;
+        /** Attributes that can be used with a MerchantDetailView.
+         */
+        public static final int[] MerchantDetailView = {
+            
+        };
+        /** Attributes that can be used with a RoundedImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RoundedImageView_android_scaleType android:scaleType}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_border_color2 com.example.android.slidingtabsbasic:border_color2}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_border_width2 com.example.android.slidingtabsbasic:border_width2}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_corner_radius com.example.android.slidingtabsbasic:corner_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_mutate_background com.example.android.slidingtabsbasic:mutate_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_oval com.example.android.slidingtabsbasic:oval}</code></td><td></td></tr>
+           </table>
+           @see #RoundedImageView_android_scaleType
+           @see #RoundedImageView_border_color2
+           @see #RoundedImageView_border_width2
+           @see #RoundedImageView_corner_radius
+           @see #RoundedImageView_mutate_background
+           @see #RoundedImageView_oval
+         */
+        public static final int[] RoundedImageView = {
+            0x0101011d, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scaleType}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+          @attr name android:scaleType
+        */
+        public static final int RoundedImageView_android_scaleType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#border_color2}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:border_color2
+        */
+        public static final int RoundedImageView_border_color2 = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#border_width2}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:border_width2
+        */
+        public static final int RoundedImageView_border_width2 = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#corner_radius}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:corner_radius
+        */
+        public static final int RoundedImageView_corner_radius = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#mutate_background}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:mutate_background
+        */
+        public static final int RoundedImageView_mutate_background = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#oval}
+          attribute's value can be found in the {@link #RoundedImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:oval
+        */
+        public static final int RoundedImageView_oval = 5;
+        /** Attributes that can be used with a SwitchButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SwitchButton_animationVelocity com.example.android.slidingtabsbasic:animationVelocity}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_insetBottom com.example.android.slidingtabsbasic:insetBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_insetLeft com.example.android.slidingtabsbasic:insetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_insetRight com.example.android.slidingtabsbasic:insetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_insetTop com.example.android.slidingtabsbasic:insetTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_measureFactor com.example.android.slidingtabsbasic:measureFactor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_offColor com.example.android.slidingtabsbasic:offColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_offDrawable com.example.android.slidingtabsbasic:offDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_onColor com.example.android.slidingtabsbasic:onColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_onDrawable com.example.android.slidingtabsbasic:onDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_radius_swtichbutton com.example.android.slidingtabsbasic:radius_swtichbutton}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumbColor com.example.android.slidingtabsbasic:thumbColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumbDrawable com.example.android.slidingtabsbasic:thumbDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumbPressedColor com.example.android.slidingtabsbasic:thumbPressedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_height com.example.android.slidingtabsbasic:thumb_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_margin com.example.android.slidingtabsbasic:thumb_margin}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_marginBottom com.example.android.slidingtabsbasic:thumb_marginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_marginLeft com.example.android.slidingtabsbasic:thumb_marginLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_marginRight com.example.android.slidingtabsbasic:thumb_marginRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_marginTop com.example.android.slidingtabsbasic:thumb_marginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchButton_thumb_width com.example.android.slidingtabsbasic:thumb_width}</code></td><td></td></tr>
+           </table>
+           @see #SwitchButton_animationVelocity
+           @see #SwitchButton_insetBottom
+           @see #SwitchButton_insetLeft
+           @see #SwitchButton_insetRight
+           @see #SwitchButton_insetTop
+           @see #SwitchButton_measureFactor
+           @see #SwitchButton_offColor
+           @see #SwitchButton_offDrawable
+           @see #SwitchButton_onColor
+           @see #SwitchButton_onDrawable
+           @see #SwitchButton_radius_swtichbutton
+           @see #SwitchButton_thumbColor
+           @see #SwitchButton_thumbDrawable
+           @see #SwitchButton_thumbPressedColor
+           @see #SwitchButton_thumb_height
+           @see #SwitchButton_thumb_margin
+           @see #SwitchButton_thumb_marginBottom
+           @see #SwitchButton_thumb_marginLeft
+           @see #SwitchButton_thumb_marginRight
+           @see #SwitchButton_thumb_marginTop
+           @see #SwitchButton_thumb_width
+         */
+        public static final int[] SwitchButton = {
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
+            0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021,
+            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
+            0x7f010026
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#animationVelocity}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:animationVelocity
+        */
+        public static final int SwitchButton_animationVelocity = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#insetBottom}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:insetBottom
+        */
+        public static final int SwitchButton_insetBottom = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#insetLeft}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:insetLeft
+        */
+        public static final int SwitchButton_insetLeft = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#insetRight}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:insetRight
+        */
+        public static final int SwitchButton_insetRight = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#insetTop}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:insetTop
+        */
+        public static final int SwitchButton_insetTop = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#measureFactor}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:measureFactor
+        */
+        public static final int SwitchButton_measureFactor = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#offColor}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.example.android.slidingtabsbasic:offColor
+        */
+        public static final int SwitchButton_offColor = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#offDrawable}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:offDrawable
+        */
+        public static final int SwitchButton_offDrawable = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#onColor}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.example.android.slidingtabsbasic:onColor
+        */
+        public static final int SwitchButton_onColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#onDrawable}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:onDrawable
+        */
+        public static final int SwitchButton_onDrawable = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#radius_swtichbutton}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:radius_swtichbutton
+        */
+        public static final int SwitchButton_radius_swtichbutton = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumbColor}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.example.android.slidingtabsbasic:thumbColor
+        */
+        public static final int SwitchButton_thumbColor = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumbDrawable}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:thumbDrawable
+        */
+        public static final int SwitchButton_thumbDrawable = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumbPressedColor}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.example.android.slidingtabsbasic:thumbPressedColor
+        */
+        public static final int SwitchButton_thumbPressedColor = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_height}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_height
+        */
+        public static final int SwitchButton_thumb_height = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_margin}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_margin
+        */
+        public static final int SwitchButton_thumb_margin = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_marginBottom}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_marginBottom
+        */
+        public static final int SwitchButton_thumb_marginBottom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_marginLeft}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_marginLeft
+        */
+        public static final int SwitchButton_thumb_marginLeft = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_marginRight}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_marginRight
+        */
+        public static final int SwitchButton_thumb_marginRight = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_marginTop}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_marginTop
+        */
+        public static final int SwitchButton_thumb_marginTop = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#thumb_width}
+          attribute's value can be found in the {@link #SwitchButton} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+          @attr name com.example.android.slidingtabsbasic:thumb_width
+        */
+        public static final int SwitchButton_thumb_width = 8;
+        /** Attributes that can be used with a superrecyclerview.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #superrecyclerview_layout_empty com.example.android.slidingtabsbasic:layout_empty}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_layout_moreProgress com.example.android.slidingtabsbasic:layout_moreProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_layout_progress com.example.android.slidingtabsbasic:layout_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_mainLayoutId com.example.android.slidingtabsbasic:mainLayoutId}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerClipToPadding com.example.android.slidingtabsbasic:recyclerClipToPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerPadding com.example.android.slidingtabsbasic:recyclerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerPaddingBottom com.example.android.slidingtabsbasic:recyclerPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerPaddingLeft com.example.android.slidingtabsbasic:recyclerPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerPaddingRight com.example.android.slidingtabsbasic:recyclerPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_recyclerPaddingTop com.example.android.slidingtabsbasic:recyclerPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #superrecyclerview_scrollbarStyle com.example.android.slidingtabsbasic:scrollbarStyle}</code></td><td></td></tr>
+           </table>
+           @see #superrecyclerview_layout_empty
+           @see #superrecyclerview_layout_moreProgress
+           @see #superrecyclerview_layout_progress
+           @see #superrecyclerview_mainLayoutId
+           @see #superrecyclerview_recyclerClipToPadding
+           @see #superrecyclerview_recyclerPadding
+           @see #superrecyclerview_recyclerPaddingBottom
+           @see #superrecyclerview_recyclerPaddingLeft
+           @see #superrecyclerview_recyclerPaddingRight
+           @see #superrecyclerview_recyclerPaddingTop
+           @see #superrecyclerview_scrollbarStyle
+         */
+        public static final int[] superrecyclerview = {
+            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
+            0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
+            0x7f01002f, 0x7f010030, 0x7f010031
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#layout_empty}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:layout_empty
+        */
+        public static final int superrecyclerview_layout_empty = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#layout_moreProgress}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:layout_moreProgress
+        */
+        public static final int superrecyclerview_layout_moreProgress = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#layout_progress}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:layout_progress
+        */
+        public static final int superrecyclerview_layout_progress = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#mainLayoutId}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.android.slidingtabsbasic:mainLayoutId
+        */
+        public static final int superrecyclerview_mainLayoutId = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerClipToPadding}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerClipToPadding
+        */
+        public static final int superrecyclerview_recyclerClipToPadding = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerPadding}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerPadding
+        */
+        public static final int superrecyclerview_recyclerPadding = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerPaddingBottom}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerPaddingBottom
+        */
+        public static final int superrecyclerview_recyclerPaddingBottom = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerPaddingLeft}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerPaddingLeft
+        */
+        public static final int superrecyclerview_recyclerPaddingLeft = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerPaddingRight}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerPaddingRight
+        */
+        public static final int superrecyclerview_recyclerPaddingRight = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#recyclerPaddingTop}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.slidingtabsbasic:recyclerPaddingTop
+        */
+        public static final int superrecyclerview_recyclerPaddingTop = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#scrollbarStyle}
+          attribute's value can be found in the {@link #superrecyclerview} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>insideOverlay</code></td><td>0x0</td><td></td></tr>
+<tr><td><code>insideInset</code></td><td>0x01000000</td><td></td></tr>
+<tr><td><code>outsideOverlay</code></td><td>0x02000000</td><td></td></tr>
+<tr><td><code>outsideInset</code></td><td>0x03000000</td><td></td></tr>
+</table>
+          @attr name com.example.android.slidingtabsbasic:scrollbarStyle
+        */
+        public static final int superrecyclerview_scrollbarStyle = 9;
+    };
 }

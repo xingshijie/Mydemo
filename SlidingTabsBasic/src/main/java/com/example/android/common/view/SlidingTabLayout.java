@@ -238,6 +238,29 @@ public class SlidingTabLayout extends HorizontalScrollView {
 //        ((TextView)mTabStrip.getChildAt(0)).setTextColor(getResources().getColor(R.color.green));
 //        currentSelectedTitle=(TextView)mTabStrip.getChildAt(0);
     }
+    public void setDot(int position,int amount){
+        View view=mTabStrip.getChildAt(position);
+        View dot=view.findViewById(R.id.dot);
+        if(dot!=null){
+            dot.setVisibility(VISIBLE);
+        }
+    }
+    public void deleteDot(int position){
+        View view=mTabStrip.getChildAt(position);
+        View dot=view.findViewById(R.id.dot);
+        if(dot!=null){
+            dot.setVisibility(INVISIBLE);
+        }
+    }
+    public void clearDot(){
+        for (int i=0;i<mTabStrip.getChildCount();i++){
+            View view=mTabStrip.getChildAt(i);
+            View dot=view.findViewById(R.id.dot);
+            if(dot!=null){
+                dot.setVisibility(INVISIBLE);
+            }
+        }
+    }
 
     @Override
     protected void onAttachedToWindow() {

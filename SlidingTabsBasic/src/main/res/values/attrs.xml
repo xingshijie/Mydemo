@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common -->
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width2" format="dimension" />
+        <attr name="border_color2" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="CommonTitleBar">
+        <attr name="baseStyle">
+           <enum name="normal" value="0" />
+           <enum name="white" value="1" />
+           <enum name="wave" value="2" />
+        </attr>
+        <attr name="yami_background" format="color"/>
+        <attr name="leftBtnIcon" format="reference" />
+        <attr name="leftBtnTxt" format="string|reference" />
+        <attr name="titleTxt" format="string|reference" />
+        <attr name="titleBtnIcon" format="reference" />
+        <attr name="rightBtnTxt" format="string|reference" />
+        <attr name="rightBtnIcon" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="CommonLine">
+        <attr name="lineTitle" format="string|reference" />
+        <attr name="leftContent" format="string|reference" />
+        <attr name="rightContent" format="string|reference" />
+        <attr name="redPoint" format="string|reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="SwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColor" format="color|reference" />
+        <attr name="offColor" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="radius_swtichbutton" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="superrecyclerview">
+        <attr name="layout_empty" format="reference"/>
+        <attr name="layout_moreProgress" format="reference"/>
+        <attr name="layout_progress" format="reference"/>
+        <attr name="recyclerClipToPadding" format="boolean"/>
+        <attr name="recyclerPadding" format="dimension"/>
+        <attr name="recyclerPaddingTop" format="dimension"/>
+        <attr name="recyclerPaddingBottom" format="dimension"/>
+        <attr name="recyclerPaddingLeft" format="dimension"/>
+        <attr name="recyclerPaddingRight" format="dimension"/>
+        <attr name="scrollbarStyle">
+            <flag name="insideOverlay" value="0x0"/>
+            <flag name="insideInset" value="0x01000000"/>
+            <flag name="outsideOverlay" value="0x02000000"/>
+            <flag name="outsideInset" value="0x03000000"/>
+        </attr>
+
+        <attr name="mainLayoutId" format="reference"/>
+    </declare-styleable>
+
+    <!-- common -->
+    <declare-styleable name="MerchantDetailView">
+    </declare-styleable>
+
+
+    <declare-styleable name="FixedAspectRatioFrameLayout">
+        <attr name="aspectRatio" format="float"/>
+    </declare-styleable>
+
+</resources>
